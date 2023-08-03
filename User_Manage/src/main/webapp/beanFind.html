@@ -1,0 +1,37 @@
+<!DOCTYPE html> <!-- beanLogout.html -->
+<html><head>
+<link rel="stylesheet" href="./CSS/beanHome.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width,initial-sacle=1"/>
+<title>회원관리</title></head>
+
+<body>
+  <header><h2>회원관리</h2></header>
+
+  <nav>
+    <ul><li>
+    <a href="./beanLogout.html">로그아웃</a></li><li><a href="./beanFind.html">검색</a>
+    </li></ul>
+  </nav>
+
+  <section>
+
+    <form action="./beanResult.jsp"method="post">
+
+    <fieldset class="fset"><legend>검색</legend>
+
+  <select name ="search_select">
+
+    <option value="stud_all" selected>전체</option>
+    <option value="stud_name" selected>이름</option>
+    <option value="stud_hobby" selected>취미</option>
+
+  </select>
+
+  <input id="find_form" type="text" name="stud_search" size="20" maxlength="50"/>
+  <input type="submit" value="검색">
+
+ </fieldset> 
+ </form>
+ </section>
+ <footer> <p>&copy;20XX Made by korea. All rights reserved.</p></footer></body></html>
